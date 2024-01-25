@@ -3,8 +3,8 @@
 
 def binary_search(lst, item):
     """
-    binary_search function takes a list and a item number.
-    Returns items index number in the list.
+    binary_search function takes a sorted list and a item number.
+    Returns item index number in the list.
     """
     low = 0
     high = len(lst) - 1
