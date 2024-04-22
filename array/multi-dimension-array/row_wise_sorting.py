@@ -1,7 +1,7 @@
 # Given a 2D array, sort each row of this array and print the result.
 
 
-# Method 1 Using Bubble Sort Algorithm:
+# Method 1 Using Bubble Sort Algorithm
 
 
 def sort_row_wise(m_arr):
@@ -25,6 +25,20 @@ def sort_row_wise(m_arr):
     sorted_matrix(m_arr)
 
 
+# Method 2 Using the built-in library function
+
+
+def sort_matrix(m_arr):
+    """Sort individual rows using built-in sort list method."""
+    for i in range(len(m_arr)):
+        m_arr[i].sort()
+
+    sorted_matrix(m_arr)
+
+
+# Print output function for matrix array
+
+
 def sorted_matrix(m_arr):
     """Print the sorted matrix array."""
     for i in range(len(m_arr)):
@@ -35,4 +49,4 @@ def sorted_matrix(m_arr):
 
 if __name__ == "__main__":
     m = [[9, 8, 7, 1], [7, 3, 0, 2], [9, 5, 3, 2], [6, 3, 1, 2]]
-    sort_row_wise(m)
+    sort_matrix(m)
