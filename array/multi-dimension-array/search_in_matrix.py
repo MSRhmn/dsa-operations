@@ -1,4 +1,5 @@
-# Given a matrix arr[][] of size M x N, where every row and column is sorted in increasing order, and a number X is given. The task is to find whether element X is present in the matrix or not.
+# Given a matrix arr[][] of size M x N, where every row and column is sorted in increasing order, and a number X is given.
+# The task is to find whether element X is present in the matrix or not.
 
 
 def search_in_matrix(arr, x):
